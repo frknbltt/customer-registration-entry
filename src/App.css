@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-sider {
+  min-width: 300px !important;
+  background: white !important;
+}
+
+.ant-tabs-nav {
+  background-color: white;
+  padding: 0 20px;
+  height: 70px !important;
+}
+.ant-tabs-content-holder {
+  margin: 20px;
+  background-color: white;
+  padding: 40px;
+}
+.ant-form-item {
+  margin-bottom: 15px !important;
+}
+.cardclass {
+  display: flex !important;
+  justify-content: space-between;
+}
+.card-icon {
+  transform: rotate(270deg);
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.phonedrawer {
+  display: none !important;
+}
+.tableformat {
+  display: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .phonedrawer {
+    display: flex !important;
+    justify-content: center;
+  }
+  .sider {
+    display: none !important;
+  }
+  .tableformat {
+    display: block !important;
+  }
+  .table {
+    display: none !important;
+  }
+  .ant-drawer-content-wrapper {
+    width: 80% !important;
+  }
+  .ant-input-group-wrapper.ant-input-search.ant-input-search-middle.ant-input-search-with-button {
+    width: 60% !important;
+  }
+}
